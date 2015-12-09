@@ -329,9 +329,9 @@ authorInput.blur(function(){
 				move_uploaded_file($_FILES['ozet_pdf']['tmp_name'], $klasor.'/'.$adiiki);
 
 				include("PHPMailerAutoload.php");
-				$host="mail.iejgeo.com";
-				$username="duyuru@iejgeo.com";
-				$password="Erdalo10@";
+				$host="host";
+				$username="username";
+				$password="pass";
 				$mail = new PHPMailer();
 				$mail->charset="UTF-8";
 				
